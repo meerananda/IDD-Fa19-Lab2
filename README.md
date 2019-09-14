@@ -8,13 +8,27 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 ## Part B. Writing to the LCD
  
-**a. What voltage level do you need to power your display?**
+**a. What voltage level do you need to power your display?**\
+5 V
 
-**b. What voltage level do you need to power the display backlight?**
+**b. What voltage level do you need to power the display backlight?**\
+3.3 V
    
-**c. What was one mistake you made when wiring up the display? How did you fix it?**
+**c. What was one mistake you made when wiring up the display? How did you fix it?**\
+I made a mistake with wiring up the potentiometer and had to refer to the diagram to fix it. I was mistakenly under the impression that the middle pin always had to be connected to ground, and therefore wired it that way first. After looking at the diagram, I realized that pin 3 on the LCD had to be wired to the middle pin of the potentiometer.
 
-**d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+**d. What line of code do you need to change to make it flash your name instead of "Hello World"?**\
+I changed the below line of code:
+```c
+lcd.print("hello, world!");
+```
+
+to read:
+```c
+lcd.print("What's up Meera!");
+```
+
+[See video here]()
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
@@ -22,14 +36,24 @@ Include your responses to the bold questions below. Include snippets of code tha
 ## Part C. Using a time-based digital sensor
 
 **Upload a video of your working rotary encoder here.**
+[See video here]()
 
 
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+I would half the numerator that each value in the note durations array was dividing, i.e. I would change this line of code:
+```c
+int noteDuration = 1000 / noteDurations[thisNote];
+```
+
+to read:
+```c
+int noteDuration = 500 / noteDurations[thisNote];
+```
  
 **b. What song is playing?**
-
+Star Wars Main Title - John Williams
 
 ## Part E. Make your own timer
 
