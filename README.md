@@ -57,6 +57,9 @@ Star Wars Main Title - John Williams
 
 ## Part E. Make your own timer
 
+Whack-a-MoLED
+
+
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
