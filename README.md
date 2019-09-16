@@ -15,7 +15,7 @@ Include your responses to the bold questions below. Include snippets of code tha
 3.3 V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**\
-I made a mistake with wiring up the potentiometer and had to refer to the diagram to fix it. I was mistakenly under the impression that the middle pin always had to be connected to ground, and therefore wired it that way first. After looking at the diagram, I realized that pin 3 on the LCD had to be wired to the middle pin of the potentiometer.
+I did not connect LCD pin 16 to ground, which resulted in the LCD panel displaying at a very low brightness. After I connected pin 16 to ground, the brightness increased significantly.
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**\
 I changed the below line of code:
@@ -27,21 +27,21 @@ to read:
 ```c
 lcd.print("What's up Meera!");
 ```
-
 [See video here]()
+
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
 
 ## Part C. Using a time-based digital sensor
 
-**Upload a video of your working rotary encoder here.**
-[See video here]()
+**Upload a video of your working rotary encoder here.**\
+[See video here](https://youtu.be/lghDFxgiDk4)
 
 
 ## Part D. Make your Arduino sing!
 
-**a. How would you change the code to make the song play twice as fast?**
+**a. How would you change the code to make the song play twice as fast?**\
 I would half the numerator that each value in the note durations array was dividing, i.e. I would change this line of code:
 ```c
 int noteDuration = 1000 / noteDurations[thisNote];
@@ -50,16 +50,29 @@ int noteDuration = 1000 / noteDurations[thisNote];
 to read:
 ```c
 int noteDuration = 500 / noteDurations[thisNote];
-```
- 
-**b. What song is playing?**
-Star Wars Main Title - John Williams
+``` 
+[See video here](https://youtu.be/-9Km33Kh1CA)
+
+**b. What song is playing?**\
+Star Wars Main Title
+
+[See video here](https://youtu.be/9r_bR_2knQE)
+
 
 ## Part E. Make your own timer
 
 Whack-a-MoLED
 
+This game has the following components:
+1. 2 "Mole" LEDs
+1. 2 Switches
+1. Success/Failure indicator LED
 
-**a. Make a short video showing how your timer works, and what happens when time is up!**
+The game generates a random number between 0 and 1 to select one of the Mole LEDs to light up. Once one of the lights up, the user has 3 seconds to hit the correct corresponding switch. If they hit the correct switch, the indicator LED will turn green to indicate success. If they don't hit the correct switch within 3 seconds, the indicator LED will turn red to indicate failure for this round. 
+
+[Whack-a-MoLED Code]
+
+**a. Make a short video showing how your timer works, and what happens when time is up!**\
+[Whack-a-MoLED Video]
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
