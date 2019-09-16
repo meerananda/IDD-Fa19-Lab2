@@ -38,6 +38,8 @@ lcd.print("What's up Meera!");
 **Upload a video of your working rotary encoder here.**\
 [See video here](https://youtu.be/lghDFxgiDk4)
 
+![Rotary Encode](/images/PartC_RotaryEncoder.png)
+
 
 ## Part D. Make your Arduino sing!
 
