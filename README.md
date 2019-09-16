@@ -5,6 +5,7 @@ Include your responses to the bold questions below. Include snippets of code tha
 ## Part A. Solder your LCD panel
 
 **Take a picture of your soldered panel and add it here!**
+![Soldered LCD Panel](/images/PartA_SolderedLCD.png)
 
 ## Part B. Writing to the LCD
  
@@ -38,7 +39,7 @@ lcd.print("What's up Meera!");
 **Upload a video of your working rotary encoder here.**\
 [See video here](https://youtu.be/lghDFxgiDk4)
 
-![Rotary Encode](/images/PartC_RotaryEncoder.png)
+![Rotary Encoder](/images/PartC_RotaryEncoder.png)
 
 
 ## Part D. Make your Arduino sing!
