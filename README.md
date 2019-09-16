@@ -70,7 +70,7 @@ This game has the following components:
 
 The game generates a random number between 0 and 1 to select one of the Mole LEDs to light up. Once one of the lights up, the user has 3 seconds to hit the correct corresponding switch. If they hit the correct switch, the indicator LED will turn green to indicate success. If they don't hit the correct switch within 3 seconds, the indicator LED will turn red to indicate failure for this round. 
 
-[Whack-a-MoLED Code]
+[Whack-a-MoLED Code](/code/Whack_A_MoLED.ino)
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**\
 [Whack-a-MoLED Video]
