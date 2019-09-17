@@ -1,6 +1,8 @@
 /*
- * Whack-A-MoLED is a game where there are two LEDs and two corresponding switches. One of the LEDs will light up at random, and the user has 3 seconds to hit the correct switch to win the round. If 
- * they hit the correct switch, the indicator LED will turn green. If the time runs out, then the indicator LED in the middle will turn red. The next round will begin immediately after.
+ * Whack-A-MoLED is a game where there are two LEDs and two corresponding switches. One of the LEDs will light up at random, 
+ * and the user has 3 seconds to hit the correct switch to win the round. If they hit the correct switch, the indicator LED 
+ * will turn green. If the time runs out, then the indicator LED in the middle will turn red. The next round will begin 
+ * immediately after.
  * 
  * References used:
  * https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e
