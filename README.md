@@ -28,10 +28,13 @@ to read:
 ```c
 lcd.print("What's up Meera!");
 ```
-[See video here]()
+[See video here](https://youtu.be/vseEE6dNb3Y)
 
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+
+[Lowly Multimeter Code](/code/Whack_A_MoLED.ino)
+[Lowly Multimeter Video](https://youtu.be/HCcY8Uw8YME)
 
 
 ## Part C. Using a time-based digital sensor
@@ -71,11 +74,11 @@ This game has the following components:
 1. 2 Switches
 1. Success/Failure indicator LED
 
-The game generates a random number between 0 and 1 to select one of the Mole LEDs to light up. Once one of the lights up, the user has 3 seconds to hit the correct corresponding switch. If they hit the correct switch, the indicator LED will turn green to indicate success. If they don't hit the correct switch within 3 seconds, the indicator LED will turn red to indicate failure for this round. 
+The game generates a random number between 0 and 1 to select one of the Mole LEDs to light up. Once one of the lights up, the user has 3 seconds to hit the correct corresponding switch. The countdown can be seen on the LCD panel. If they hit the correct switch, the indicator LED will turn green to indicate success. If they don't hit the correct switch within 3 seconds, the indicator LED will turn red to indicate failure for this round. 
 
 [Whack-a-MoLED Code](/code/Whack_A_MoLED.ino)
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**\
-[Whack-a-MoLED Video]
+[Whack-a-MoLED Video](https://youtu.be/2LdZr8o1ReI)
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
