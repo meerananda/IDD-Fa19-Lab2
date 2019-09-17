@@ -6,7 +6,10 @@
  * 
  * References used:
  * https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e
- * 
+ * https://www.hackster.io/courtlandjensen/led-light-whack-a-mole-20c319
+ * https://forum.arduino.cc/index.php?topic=565344.0
+ * http://www.uwyo.edu/esp4t/arduino-modules/game-modules/whack-a-mole.html
+ *
  */
 
 // include the library code:
