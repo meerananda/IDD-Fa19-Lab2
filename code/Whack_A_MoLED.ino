@@ -66,7 +66,7 @@ void loop() {
     // While the time is less than 3000 milliseconds, go through the while loop
     while (millis() - start_time < milliseconds) {
       lcd.setCursor(0, 1);
-      lcd.print((millis()-start_time)/1000);
+      lcd.print(3 - (millis()-start_time)/1000);
 
       if (digitalRead(switch1) == LOW) { // If you hit the right switch
         digitalWrite(led1, LOW); // Turn off LED 1
@@ -94,7 +94,7 @@ void loop() {
     
     while (millis() - start_time < milliseconds) {
      lcd.setCursor(0, 1);
-     lcd.print((millis()-start_time)/1000);
+     lcd.print(3 - (millis()-start_time)/1000);
 
      if (digitalRead(switch2) == LOW) {
         digitalWrite(led2, LOW);
