@@ -33,7 +33,8 @@ lcd.print("What's up Meera!");
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
-[Lowly Multimeter Code](/code/Whack_A_MoLED.ino)
+[Lowly Multimeter Code](/code/Lowly_Multimeter.ino)
+
 [Lowly Multimeter Video](https://youtu.be/HCcY8Uw8YME)
 
 
